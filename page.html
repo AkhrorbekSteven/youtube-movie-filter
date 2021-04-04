@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="container add">
+        <form action="#" class="inputs-wrapper add-wrapper">
+            <a href="index.html" class="previous">
+                <img src="img/long-arrow-left.png" alt="left-arrow" width="50px">
+            </a>
+            <input type="text" placeholder="film youtube iframe link" id="iframeInput" required>
+            <input type="text" placeholder="movie name" id="titleInput" required>
+            <select id="selectPanel" class="add-select">
+                <option value="sci-fi">sci-fi</option>
+                <option value="horror">horror</option>
+                <option value="comedy">comedy</option>
+                <option value="action & war">action & war</option>
+                <option value="politics">politics</option>
+                <option value="thriller">thriller</option>
+                <option value="drama">drama</option>
+                <option value="documentary">documentary</option>
+                <option value="cartoon">cartoon</option>
+            </select>
+            <button class="add-link" id="addBtn" type="submit"><span>+</span> Add</button>
+        </form>
+    </div>
+    <script src="js/data.js"></script>
+    <script src="js/main1.js"></script>
+</body>
+</html>
